@@ -1,0 +1,297 @@
+* {
+  box-sizing: border-box;
+    margin: 0;
+}
+
+body {font-family: Verdana, sans-serif; margin:0}
+
+html{
+    background-color: burlywood;
+}
+
+
+.trcorner{
+  position:absolute;
+  top:40%;
+left:30%; 
+  text-align:center;
+  color:#000;
+    font-family:'Lemonada', cursive;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+.trcorner .border{
+    color:#fff;
+    padding:20px;
+    font-size: 50px;
+    background-color: rgba(000, 0, 0, 0.5);
+}
+
+.border2{
+    font-size: 25px;
+    
+}
+
+.logo {
+position:absolute;
+top:5%;
+right:90%; 
+}
+
+
+.musikbar {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#lydknap{
+    padding:10px;
+    background-color: burlywood;
+    color: #000;
+    border-color: burlywood;
+    box-shadow: none;
+}
+
+#lydknap:hover{
+    background-color:#fff; 
+
+}
+    
+
+
+
+.video-1 {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.billedebar {
+    background-image: url(../bll/pexels-stephen-niemeier-54133.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 5em;
+}
+
+.sektion-2{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lemonada', cursive;
+    padding: 5% 2%; 
+    justify-content: center;
+    width:50%;
+    margin-left:25%;
+    
+}
+
+.overskrift1{
+    color:white;
+}
+
+.javatekst{
+    background-color:burlywood;
+}
+
+
+    
+    
+
+
+.sektion-5 {
+     display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lemonada', cursive;
+    padding: 5% 2%; 
+    justify-content: center;
+    color:#000;
+    width: 50%;
+    margin-left: 25%;
+
+    
+}
+
+
+.sektion-7 {
+    background-color: white;
+    height: 25em;
+}
+
+
+.sektion-3 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lemonada', cursive;
+    background-color: burlywood;
+    padding: 5% 2%; 
+    justify-content: center;
+    width:50%;
+    margin-left:25%;
+}
+
+
+.flexp{
+    text-align:center;
+    line-height: 100%;
+    background-color: transparent;
+
+}
+
+.underoverskrift{
+
+    text-align: center;
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+.content{
+    text-align: center;
+    justify-content: center;
+    margin-top: 3%;
+
+}
+
+
+
+.flexh {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+
+}
+
+#introvideo {
+    position: relative;
+    margin-top: 2%;
+    margin-left: 22%;
+    border-style: solid;
+    border-color:burlywood;
+    border-width: 5px;
+    border-radius: 10px;
+
+}
+
+
+
+
+#wss {
+    opacity: 0;
+    -webkit-transition:opacity 1.0s linear 0s;
+    transition: opacity 1.0s linear 0s;
+    background-color:burlywood;
+    color:white;
+    font-size: 40px;
+}
+
+
+
+.arraytekst {
+    color:white;
+    font-size: 30px;
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin-bottom: 2%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+.udstyr_overskrift {
+    text-align: center;
+    background-color: burlywood;
+    padding:10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Lemonada', cursive;
+}
+
+#visUdstyr {
+    padding: 10px;
+    border-radius: 3px;
+    border-color: black;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2%;
+    
+}
+
+#visUdstyr:hover{background-color:burlywood; color:black;}
+
+.visUdstyrknap {
+    text-align: center;
+}
+
+#skjulUdstyr {
+    padding: 10px;
+    border-radius: 3px;
+    border-color: black;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+#skjulUdstyr:hover{background-color:burlywood; color:black;}
+
+
+
+.udstyr_video {
+    text-align: center;
+    padding: 20px;
+}
+
+#udstyrVideo{
+    border-radius: 10px;
+    border-color: burlywood;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.sluttekst_overskrift {
+    text-align: center;
+}
+
+.content_sluttekst {
+    text-align: center
+}
+
+.sluttekst {
+    background-color: burlywood;
+    color: 000;
+    line-height: 200%;
+}
+
+.symbol {
+    font-size: 50px;
+}
+
+#introVideo {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 5px;
+}
