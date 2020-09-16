@@ -295,3 +295,75 @@ right:90%;
     border-color: burlywood;
     border-width: 5px;
 }
+
+
+
+.musiknoder {
+  display: block;
+  margin: auto;
+  position: relative;
+  width: 50%;
+  min-width: 300px;
+  height: 150px;
+  border: 0px solid #000;
+}
+
+.node-1,
+.node-2,
+.node-3,
+.node-4 {
+  position: absolute;
+  animation: notes 2s infinite linear;
+  font-size: 35px;
+  opacity: 0;
+  color: white;
+}
+
+.node-1 {
+  top: 60px;
+  left: 0;
+  animation-delay: 0.5s;
+}
+
+.node-2 {
+  top: 30px;
+  left: 30%;
+  animation-delay: 1s;
+}
+
+.node-3 {
+  top: 90px;
+  left: 60%;
+  animation-delay: 1.5s;
+}
+
+.node-4 {
+  top: 40px;
+  left: 90%;
+  animation-delay: 2s;
+}
+
+@keyframes notes {
+  0% {
+    transform: scale(1) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.5) translate(50%, -50%);
+  }
+  80% {
+    opacity: 0;
+    transform: scale(1.5) translate(100%, -100%);
+  }
+  100% {
+    transform: scale(1.5) translate(100%, -100%);
+    opacity: 0;
+  }
+}
+#slutVideo {
+    border-radius: 10px;
+    border-color: burlywood;
+    border-style: solid;
+    border-width: 5px;
+}
