@@ -28,6 +28,7 @@ function wssSlide(){
     $("#ukulele").fadeIn();
     $("#tromme").fadeIn();
     $("#mixer").fadeIn();
+
   });
 });  
 
